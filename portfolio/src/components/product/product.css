@@ -1,0 +1,44 @@
+.pr{
+    width: 30%;
+    height: 40vh;
+    border: 3px solid black;
+    margin: 20px 10px;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(131, 102, 239);
+    overflow: hidden;
+}
+.pr-browser{
+    display: flex;
+    height: 30px;
+    background-color: rgb(243, 242, 242);
+    align-items: center;
+position: sticky;
+
+}
+.pr-circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: blueviolet;
+    margin: 2px;
+}
+.pr-memory{ 
+width: 100%;
+transition: all 2s ease-in-out;
+}
+
+.pr:hover .pr-memory{
+transform:translateX(-50%)
+
+}
+
+@media screen and (max-width: 480px) and (max-width: 768px){
+
+    .pr{
+        width: 40%;
+        height: 20vh;
+    }
+    .pl-text{
+        width: 100%;
+    }
+}
